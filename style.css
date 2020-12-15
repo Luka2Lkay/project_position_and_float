@@ -1,0 +1,302 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   /* background-color: green; Remove this color*/
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    border-bottom: 1px solid gray;
+    
+    
+    
+}
+
+    
+.left_nav{
+    padding: 10px;
+      
+}
+
+
+.right_nav{
+    flex-shrink: 1;
+    align-self: flex-start;
+    margin-right: 10px;
+   
+}
+
+.center_nav{
+    flex: 2;
+    align-self: center;
+    margin-left: 25%;
+}
+
+.right_nav button{
+    border-radius: 3px;
+    font-size: 11px;
+    padding: 11px 12px 8px;
+    background-color: rgb(86, 123, 149);
+    border: 1px solid rgb(50, 104, 145);
+    color: #FFF;
+}
+
+.left_nav a{
+    color:#000;
+}
+
+.left_nav a:hover {
+    text-decoration: underline;
+}
+
+hr{
+    line-height: 1px;
+    margin: 0;
+}
+
+h1{
+   display: flex;
+   flex-direction: column; 
+    color: black;
+    align-items: center;
+  
+        
+}
+
+.first_image{
+    display: block;
+    width: 100%;
+   
+    
+}
+
+figure{
+    margin: auto;
+    
+   
+}
+
+figcaption{
+    text-align: left;
+    width: 100%;
+    font-size: 0.875rem;
+}
+
+.first_section{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.first_article_info{
+    margin-left: 21.8%;
+    font-weight: 700;
+    
+}
+
+.first_article a, .first_article_info a{
+    text-decoration: underline;
+    color: black;
+}
+
+.first_article_info a:hover{
+    text-decoration: none;
+}
+
+.first_article a:hover{
+    text-decoration: none;
+}
+
+.date {
+    font-weight: 500;
+    font-size: 0.8125rem;
+}
+
+
+    
+
+.article_paras{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.125rem;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+
+}
+
+.first_article_paras p:nth-child(6) a{
+    color: #326891;
+    
+    
+}
+
+.second_article_heading{
+    margin-left: 25%;
+}
+
+.third_article img{
+    width: 100%;
+    display: block;
+    margin:0 auto;
+}
+
+.third_article p:nth-child(2){
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif;
+    color: #666;
+}
+
+
+.third_article{
+    position: relative;
+}
+
+.first_left{
+    position: absolute;
+    top: 17em;
+    left: 16px;
+    font-size: 13px;
+    
+    
+}
+
+.second_left{
+    position: absolute;
+    top: 17em;
+    left:18.5em;
+    font-size: 13px;
+}
+
+.third_left{
+    position: absolute;
+    top: 17em;
+    left: 35.2em;
+    font-size: 13px;
+}
+
+.forth_left{
+    position: absolute;
+    top: 17em;
+    left: 53em;
+    font-size: 13px;
+}
+
+.bottom_left{
+    position: absolute;
+    top: 38em;
+    left: 1em;
+    font-size: 13px;
+}
+
+.bottom_second_left{
+    position: absolute;
+    top: 38em;
+    left: 18.5em;
+    font-size: 13px;
+}
+
+.bottom_third_left{
+ position: absolute;   
+ top: 38em;
+ left: 35.2em;
+ font-size: 13px;
+}
+
+.bottom_fourth_left{
+    position: absolute;
+    top: 38em;
+    left: 53em;
+    font-size: 13px;
+}
+
+.below_img{
+    font-size: 14px;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    
+}
+
+.fourth_article{
+    text-align: left;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video_caption{
+    margin-left: 20%;
+}
+
+.credit{
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif;
+    color: #666;
+}
+
+.fifth_article{
+    text-align: left;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.footer_paras p:first-child{
+    
+    font-size: 9px;
+    line-height: 18px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif;
+    margin-left: 27%;
+    color: #666;
+}
+
+.footer_paras p:first-child a{
+    text-decoration: underline;
+    color: #666;
+    
+}
+
+.footer_paras p:first-child a:hover{
+    text-decoration: none;
+}
+
+.social{
+    
+    padding-left: 70%;  
+    
+  
+       
+}
+
+
+
+
+
+.fa{
+    background-color:#eee;
+    padding: 6px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 80px;
+    border: 1px solid #eee;
+    color: black;
+}
+
+.fa:hover{
+    background-color: #fff;
+}
